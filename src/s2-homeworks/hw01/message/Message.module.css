@@ -1,0 +1,43 @@
+.message {
+    width: 575px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imageAndText img {
+    width: 48px;
+    height: 48px;
+
+}
+
+.text {
+    padding-right: 20px;
+    height: 60px;
+    width: 527px;
+}
+
+.text:after {
+
+}
+
+.name {
+    color: white;
+    text-align: end;
+
+}
+
+.messageText {
+    text-align: end;
+    width: 100%;
+    color: white;
+}
+
+.time {
+    align-self: flex-end;
+}
